@@ -1,5 +1,8 @@
 # Resend Receiver
 
+[![CI](https://github.com/ruslanty/resend-receiver/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ruslanty/resend-receiver/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Resend Receiver is a small, self-hosted service that forwards inbound emails received by [Resend](https://resend.com/) to configured addresses. It accepts Resend `email.received` webhooks, verifies their signatures, selects a route by recipient, retrieves the original message, and sends a reconstructed email through Resend.
 
 It is a focused open-source utility, not a general-purpose mail server or a high-availability platform.
