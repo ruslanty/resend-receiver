@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.idea/
+.DS_Store
+coverage/
+node_modules/
+npm-debug.log*
