@@ -13,7 +13,7 @@
     "quality": "npm run format:check && npm run lint && npm test"
   },
   "dependencies": {
-    "postal-mime": "^4.1.4",
+    "postal-mime": "^4.2.0",
     "resend": "^6.34.1",
     "svix": "^2.9.0"
   },
