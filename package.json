@@ -15,7 +15,7 @@
   "dependencies": {
     "postal-mime": "^4.1.4",
     "resend": "^6.34.1",
-    "svix": "^2.9.0"
+    "svix": "^2.9.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
